@@ -45,7 +45,7 @@ function validateData() {
 
     /*I learned to use && because I wanted two things to be true at the same time, that's how I put it in my flowchart because that's how I understood it.*/
     if (speciesPet != "dog" && speciesPet != "cat" && speciesPet != "pig") {  // Check that the species is one of the 3 valid ones
-        output("Sorry we don't have that species in our database. Try dog, cat or pig");
+        output("Sorry we don't have that species in our database, try Dog Cat or Pig, and type only one");
         return false;
     }
     if (genderPet == "none") {
