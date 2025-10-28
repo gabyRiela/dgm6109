@@ -83,7 +83,7 @@ p {
 .header-nav a:hover,
 .header-nav:focus {
     background-color: #1d576c;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .link-p {
@@ -128,7 +128,7 @@ p {
     border-width: 5px;
     border-style: solid;
     border-color: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .img-clickme:hover,
@@ -218,7 +218,7 @@ p {
     padding: 1rem;
     color: white;
     font-weight: 600;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .color-primary {
