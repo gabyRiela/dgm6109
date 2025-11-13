@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gabriela Sanchez Plot 1</title>
+    <script src="d3.min.js"></script>
+</head>
+
+<body>
+    <div id="container" style="margin: 0 auto">
+        <div id="canvas"></div>
+        <h1 style="text-align:center">Plot 1: How is my morning energy affected by my workout over the course of the
+            weeks?</h1>
+        <p style="text-align: left"> <strong>Hypothesis:</strong> As time progresses through my workout routine
+            (chronologically), my morning energy levels show patterns that predict my end of day outcomes. In addition,
+            the energy change from after the workout to the end of the day might reveal whether workouts provide lasting
+            benefits or temporary boosts, and higher workout intensity (measured by active kilocalories) might correlate
+            with my ability to maintain morning energy levels throughout the day.
+        </p>
+        <h3>Why this is one of my best scatterplots:</h3>
+        <p>
+            This visualization tells a unique story by focusing on <strong>morning energy</strong> as the Y-axis rather
+            than end of day outcomes. This shift reveals whether I tend to start workouts feeling exhausted or
+            energized, and how that changes over time as my body adapts to regular exercise. The color gradient (red =
+            energy dropped after workout, blue = energy increased) immediately shows which workouts provided lasting
+            energy versus those that left me drained by day's end. Circle size represents workout intensity, allowing me
+            to see if harder workouts (larger circles) cluster at certain morning energy levels.
+        </p>
+        <p>
+            <strong>Technical implementation:</strong> I used Array.sort() to organize workouts
+            chronologically by converting date strings to Date objects, which was essential for showing temporal
+            progression. The calculateEnergyChange() function computes the difference between post-workout
+            and end of day energy, revealing whether the initial boost from exercise lasts or fades. Using
+            d3.min() and d3.max() made my circle size scale dynamic - it automatically adjusts
+            to my actual calorie range rather than using hard-coded values. This plot answers: "Do I start workouts more
+            energized as I build consistency, and do those workouts sustain my energy all day?"
+        </p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

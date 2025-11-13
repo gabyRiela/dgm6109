@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gabriela Sanchez Plot 2</title>
+    <script src="d3.min.js"></script>
+</head>
+
+<body>
+    <div id="container" style="margin: 0 auto">
+        <div id="canvas"></div>
+        <h1 style="text-align:center">Plot 2: How does my workout intensity vary over time?</h1>
+        <p style="text-align: left"><strong>Hypothesis:</strong> How does the intensity of my training (measured in
+            active kilocalories burned) vary over time, and what patterns emerge when analyzing post-workout energy and
+            cardiovascular exertion? Furthermore, maximum heart rate could reveal which workouts truly test my
+            cardiovascular system, regardless of calorie burn, and how this affects my energy levels.
+        </p>
+        <h3>Why this is one of my best scatterplots:</h3>
+        <p>
+            This visualization provides a crucial time series analysis of my workout output and recovery. By
+            plotting Date chronologically on the X-axis and Active Kilocalories on the Y-axis, I can instantly
+            identify trends in my sustained effort over time: Am I consistently challenging myself? Do I have
+            high-calorie and low-calorie workout cycles?
+        </p>
+        <p>
+            The combination of Maximum Heart Rate (Size) and Energy Level After Workout (Color) reveals the true
+            physiological cost of my training. For instance, a small, dark red circle (low Kcal, high HR, low energy)
+            indicates a short, punishing workout, while a high-Kcal circle with a light green color (high Kcal, good
+            energy) suggests a highly effective and well-recovered session. This plot answers: "How does my training
+            intensity (HR) and immediate recovery (Energy After) impact my calorie burn over the six-week period?"
+        </p>
+        <p>
+            <strong>Technical implementation:</strong> The use of Array.sort() was critical here to ensure
+            chronological order by converting date strings to JavaScript Date objects. Without proper sorting, the
+            temporal story would be lost. Using d3.min() and d3.max() for all three scales Y-axis, and
+            (size) makes this visualization fully dynamic, ensuring everything adjusts automatically when new data is
+            added.
+        </p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
