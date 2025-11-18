@@ -1,0 +1,86 @@
+/* Global body font */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-title {
+    margin-left: 1.5rem;
+}
+
+/* Card Styling */
+.proposal-card {
+    background-color: #f0f0f0;
+    border: 1px solid #585858;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+/* Card Header Styling */
+.proposal-header {
+    background-color: #cccccc;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.button {
+    background-color: #30324e;
+    border: none;
+    color: white;
+    display: inline-flex;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #30324e
+}
+
+/* Card Body Styling */
+.proposal-body {
+    padding: 1.5rem;
+}
+
+.proposal-body h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #111b66;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8a8a8a;
+}
+
+.proposal-body p {
+    font-size: 1.2rem;
+    color: #535353;
+}
+
+
+.proposal-body li {
+    font-size: 1.2rem;
+    color: #535353;
+}
+
+/* Encoding List Styling */
+.encoding-list {
+    padding-left: 1rem;
+}
+
+.encoding-list li {
+    position: relative;
+    margin-bottom: 0.5rem;
+    color: #535353;
+}
