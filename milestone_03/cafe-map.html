@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Search - Bean Hunter</title>
+    <!-- font link Cormorant Garamond and Montserrat -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@100;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="brand">
+                <img src="img/logo.png" alt="Bean Hunter Logo" class="header-logo">
+                <h1> Bean Hunter</h1>
+            </div>
+            <!-- checkbox to dsisplay the menu for mobile -->
+            <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+
+            <label for="nav-toggle" class="mobile-menu-btn">
+                <img src="img/menuicon.png" alt="Menú" class="hamburger-icon">
+            </label>
+
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cafe-map.html">Map</a></li>
+                    <li><a href="cafe-list.html">All Cafes</a></li>
+                    <li><a href="my-cafes.html">My Cafes</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Map Search</h2>
+                <p class="subtitle">Explore Cafes across Vancouver</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <input type="checkbox" id="filter-toggle" class="filter-checkbox">
+            <div class="controls-row">
+                <div class="search-bar map-search">
+                    <input type="text" placeholder="Search by neighborhood, name, or vibe...">
+                    <button type="submit" class="search-button-image">
+                        <img src="img/searchicon.png" alt="Search" class="search-icon-img">
+                    </button>
+                </div>
+                <label for="filter-toggle" class="btn btn-secondary filter-trigger-btn">
+                    <img src="img/seemoreicon.png" alt="Toggle Filters" class="filter-icon-img">
+                </label>
+            </div>
+
+            <div class="map-layout-grid">
+                <aside class="filters-sidebar">
+
+                    <div class="filter-group">
+                        <h4>Amenities</h4>
+                        <label><input type="checkbox"> Wi-Fi</label>
+                        <label><input type="checkbox"> Power Outlets</label>
+                        <label><input type="checkbox"> Study-Friendly</label>
+                        <label><input type="checkbox"> Outdoor Seating</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>Neighborhoods</h4>
+                        <label><input type="checkbox"> Downtown</label>
+                        <label><input type="checkbox"> Kitsilano</label>
+                        <label><input type="checkbox"> Mount Pleasant</label>
+                        <label><input type="checkbox"> Gastown</label>
+                        <label><input type="checkbox"> Commercial Drive</label>
+                        <label><input type="checkbox"> West End</label>
+                        <label><input type="checkbox"> Yaletown</label>
+                        <label><input type="checkbox"> Main Street</label>
+                        <label><input type="checkbox"> Fairview</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>Vibe</h4>
+                        <label><input type="checkbox"> Cozy</label>
+                        <label><input type="checkbox"> Modern</label>
+                        <label><input type="checkbox"> Rustic</label>
+                        <label><input type="checkbox"> Industrial</label>
+                        <label><input type="checkbox"> Minimalist</label>
+                        <label><input type="checkbox"> Vintage</label>
+                        <label><input type="checkbox"> Artistic</label>
+                        <label><input type="checkbox"> Bohemian</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>Noise Level</h4>
+                        <label><input type="radio" name="noise"> Quiet</label>
+                        <label><input type="radio" name="noise"> Moderate</label>
+                        <label><input type="radio" name="noise"> Lively</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>Price Range</h4>
+                        <label><input type="radio" name="price"> $</label>
+                        <label><input type="radio" name="price"> $$</label>
+                        <label><input type="radio" name="price"> $$$</label>
+                    </div>
+
+                </aside>
+
+
+                <div class="map-area">
+                    <div class="map-placeholder">
+                        <img src="img/vancouvermap.jpg" alt="Vancouver Map Cafes" class="img-cover">
+                        <div class="map-controls">
+                            <div class="zoom-btn">+</div>
+                            <div class="zoom-btn">-</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards-list-sidebar">
+
+
+                    <!-- card Revolver -->
+                    <article class="cafe-card mini-card">
+                        <div class="card-header">
+                            <div class="fav-btn">
+                                <img src="img/hearticon.png" alt="Favorite Icon" class="heart-icon-img">
+                            </div>
+                            <div>
+                                <h3>Revolver Coffee</h3>
+                                <p class="neighborhood">Gastown</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="tag-line">A speciality coffee shop known for its expertly
+                                crafted espresso and slow bar.</p>
+                            <div class="tags">
+                                <span class="tag">Wifi</span>
+                                <span class="tag">Outlets</span>
+                            </div>
+                            <a href="cafe-detail.html" class="btn btn-primary">Show Cafe</a>
+                        </div>
+                    </article>
+
+                    <!-- card Trees Organic -->
+                    <article class="cafe-card mini-card">
+                        <div class="card-header">
+                            <div class="fav-btn">
+                                <img src="img/hearticon.png" alt="Favorite Icon" class="heart-icon-img">
+                            </div>
+                            <div>
+                                <h3>Trees Organic Coffe</h3>
+                                <p class="neighborhood">Granville</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="tag-line">An eco-friendly café serving organic, fair-trade
+                                coffee in a
+                                warm
+                                setting.
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Wifi</span>
+                                <span class="tag">Outlets</span>
+                                <span class="tag">Outdoor</span>
+                            </div>
+                            <a href="cafe-detail.html" class="btn btn-primary">Show Cafe</a>
+                        </div>
+                    </article>
+
+                    <!-- card Small Victory -->
+                    <article class="cafe-card mini-card">
+                        <div class="card-header">
+                            <div class="fav-btn">
+                                <img src="img/hearticon.png" alt="Favorite Icon" class="heart-icon-img">
+                            </div>
+                            <div>
+                                <h3>Small Victory Bakery</h3>
+                                <p class="neighborhood">Granville</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+
+                            <p class="tag-line">A beautiful coffee famous for their Japanese influenced
+                                pastries
+                                and
+                                bread.
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Outdoor</span>
+                            </div>
+                            <a href="cafe-detail.html" class="btn btn-primary">Show Cafe</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <h3>Vancouver Cafe Explorer</h3>
+            <p>Your guide to the best beans in the city</p>
+            <p class="copyright">© 2025 Web Project</p>
+        </div>
+    </footer>
+</body>
+
+</html>

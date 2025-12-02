@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cafes - Bean Hunter</title>
+    <!-- font link Cormorant Garamond and Montserrat -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@100;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="brand">
+                <img src="img/logo.png" alt="Bean Hunter Logo" class="header-logo">
+                <h1> Bean Hunter</h1>
+            </div>
+            <!-- checkbox to dsisplay the menu for mobile -->
+            <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+
+            <label for="nav-toggle" class="mobile-menu-btn">
+                <img src="img/menuicon.png" alt="Menú" class="hamburger-icon">
+            </label>
+
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cafe-map.html">Map</a></li>
+                    <li><a href="cafe-list.html">All Cafes</a></li>
+                    <li><a href="my-cafes.html">My Cafes</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h2>My Cafes</h2>
+            <p class="subtitle">Save your favorite Cafes</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="cards-section">
+            <div class="container">
+                <div class="cards-grid">
+                    <!-- card Revolver -->
+                    <article class="cafe-card">
+                        <div class="card-top">
+                            <img src="img/revolvercafe.jpg" alt="Revolver Coffee" class="img-cover">
+                            <div class="fav-btn">
+                                <img src="img/hearticonfill.png" alt="Favorite Icon" class="heart-icon-img">
+                            </div>
+                            <div class="card-title-overlay">
+                                <h3>Revolver Coffee</h3>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p>A speciality coffee shop known for its expertly crafted espresso and
+                                slow
+                                bar.</p>
+                            <div class="tags">
+                                <span class="tag">Wifi</span>
+                                <span class="tag">Outlets</span>
+                            </div>
+                            <div class="tags tag-line">
+                                <span class="tag">Moderate</span>
+                                <span class="tag">$$</span>
+                                <span class="tag">Modern</span>
+                            </div>
+                            <a href="cafe-detail.html" class="btn btn-primary">Show Cafe</a>
+                        </div>
+                    </article>
+                    <!-- card Trees Organic -->
+                    <article class="cafe-card">
+                        <div class="card-top">
+                            <img src="img/pradocafe.jpg" alt="Trees Organic Coffee" class="img-cover">
+                            <div class="fav-btn">
+                                <img src="img/hearticonfill.png" alt="Favorite Icon" class="heart-icon-img">
+                            </div>
+                            <div class="card-title-overlay">
+                                <h3>Prado Cafe</h3>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p>An eco-friendly café serving organic, fair-trade coffee in a warm
+                                setting.
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Wifi</span>
+                                <span class="tag">Outlets</span>
+                                <span class="tag">Outdoor</span>
+                            </div>
+                            <div class="tags tag-line">
+                                <span class="tag">Moderate</span>
+                                <span class="tag">$</span>
+                                <span class="tag">Rustic</span>
+                            </div>
+                            <a href="cafe-detail.html" class="btn btn-primary">Show Cafe</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+
+        <section class="diaries-section">
+            <div class="diary-header">
+                <h2>Cafe Diaries</h2>
+                <button class="btn btn-primary add-btn">+</button>
+            </div>
+            <p class="subtitle">Keep a record of the cafes you've been to.</p>
+
+            <div class="diary-list">
+                <div class="diary-item">
+                    <img src="/img/smallvictoryfood.jpeg" alt="Diary Foto">
+                    <div class="diary-content">
+                        <div class="diary-date">Nov 22, 2025</div>
+                        <h3>Small Victory</h3>
+                        <p>Excellent. I love this place, the desserts are delicious.</p>
+                    </div>
+                </div>
+                <div class="diary-item">
+                    <img src="/img/pradocafefood.jpg" alt="Diary Foto">
+                    <div class="diary-content">
+                        <div class="diary-date">Nov 2, 2025</div>
+                        <h3>Prado Cafe</h3>
+                        <p>Very nice place, I loved the decor and the coffee. It's very good.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <h3>Vancouver Cafe Explorer</h3>
+            <p>Your guide to the best beans in the city</p>
+            <p class="copyright">© 2025 Web Project</p>
+        </div>
+    </footer>
+</body>
+
+</html>

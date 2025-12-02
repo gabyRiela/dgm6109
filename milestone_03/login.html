@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bean Hunter</title>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@100;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body class="login-body">
+  <header>
+        <div class="container header-container">
+            <div class="brand">
+                <img src="img/logo.png" alt="Bean Hunter Logo" class="header-logo">
+                <h1> Bean Hunter</h1>
+            </div>
+            <!-- checkbox to dsisplay the menu for mobile -->
+            <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+
+            <label for="nav-toggle" class="mobile-menu-btn">
+                <img src="img/menuicon.png" alt="Menú" class="hamburger-icon">
+            </label>
+
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cafe-map.html">Map</a></li>
+                    <li><a href="cafe-list.html">All Cafes</a></li>
+                    <li><a href="my-cafes.html">My Cafes</a></li>
+                    <li><a href="login.html">Log In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <section class="login-container">
+        <div class="login-card">
+            <img src="img/logo.png" alt="Bean Hunter Logo">
+            <h2>Bean Hunter</h2>
+            <p>Login to access your favorites and diary</p>
+            
+            <form action="#">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Value">
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Value">
+                
+                <button class="btn btn-primary full-width-btn" type="submit">Log In</button>
+                <a href="#" class="forgot-link">Forgot password?</a>
+            </form>
+        </div>
+    </section>
+</main>
+</body>
+</html>
