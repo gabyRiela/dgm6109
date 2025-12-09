@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gabriela Sanchez - Final Term Project Draft 2</title>
+
+    <script src="d3.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Workout Intensity Over Time: Energy Change Analysis</h1>
+    <div id="canvas"></div>
+    <h2>Hypothesis</h2>
+    <p>As Active Kilocalories increase on any given day, the energy change will more frequently show a negative result
+    </p>
+    <p>In addition, longer workout Duration and high Maximum Heart Rate might amplify the overall effort, leading to
+        loss Energy.</p>
+    <h2>Sketch Description</h2>
+    <p>A time series scatterplot with Date/Date on the X-axis and Active Kilocalories on the Y-Axis. Each point's size
+        represents the workout Duration and its color represents the Max Heart Rate. The Shape is used to show the
+        net change in enerrgy: a Triangle if energy went up, an upside down Triangle if it went down, and a cirrle if no
+        change. This allows observation of high intensity clusters over time and their correlation with the change of
+        energy. </p>
+
+    <h2>Data Encoding</h2>
+    <ul>
+        <li><strong>X-Axis:</strong> Date/Day (Temporal/Sequential)</li>
+        <li><strong>Y-Axis:</strong> Active Kilocalories (Quantitative - Intensity)</li>
+        <li><strong>Color:</strong> Max Heart Rate in BPM (Sequential Gradient: Low to High Intensity)</li>
+        <li><strong>Shape (Glyph):</strong> Energy Change (Post workout - Morning workout)</li>
+        <li><strong>Size:</strong> Duration in min (Quantitative)</li>
+    </ul>
+    <h2>Justification (Initial Analysis)</h2>
+    <p>This proposal is deigned to check for sequencial patterns and cumulative effects. By using Date on the X-Axis,
+        we can see if a string of high-intensity workouts (high Y-values, large siize, hot color) immediately precedes a
+        day where the energy level shape chenge afterr the workout. The use of Shape forr the change of Enerrgy Level
+        prrovides a clear categorical distinction oof the primary result. </p>
+</body>
+
+<script src="main.js"></script>
+
+</html>

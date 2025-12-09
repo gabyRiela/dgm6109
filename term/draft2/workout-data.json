@@ -1,0 +1,332 @@
+[
+    {
+        "date": "2025-09-29",
+        "duration": 107,
+        "activeKcal": 378,
+        "maxHRate": 165,
+        "minHRate": 74,
+        "energyMorn": 2,
+        "energyAfter": 4,
+        "energyEnd": 3
+    },
+    {
+        "date": "2025-09-30",
+        "duration": 93,
+        "activeKcal": 313,
+        "maxHRate": 162,
+        "minHRate": 76,
+        "energyMorn": 3,
+        "energyAfter": 2,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-10-01",
+        "duration": 108,
+        "activeKcal": 352,
+        "maxHRate": 165,
+        "minHRate": 84,
+        "energyMorn": 2,
+        "energyAfter": 2,
+        "energyEnd": 3
+    },
+    {
+        "date": "2025-10-02",
+        "duration": 105,
+        "activeKcal": 312,
+        "maxHRate": 156,
+        "minHRate": 76,
+        "energyMorn": 3,
+        "energyAfter": 1,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-10-03",
+        "duration": 86,
+        "activeKcal": 386,
+        "maxHRate": 175,
+        "minHRate": 84,
+        "energyMorn": 1,
+        "energyAfter": 3,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-06",
+        "duration": 106,
+        "activeKcal": 381,
+        "maxHRate": 168,
+        "minHRate": 74,
+        "energyMorn": 1,
+        "energyAfter": 2,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-07",
+        "duration": 96,
+        "activeKcal": 285,
+        "maxHRate": 144,
+        "minHRate": 73,
+        "energyMorn": 1,
+        "energyAfter": 3,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-08",
+        "duration": 118,
+        "activeKcal": 465,
+        "maxHRate": 175,
+        "minHRate": 94,
+        "energyMorn": 1,
+        "energyAfter": 2,
+        "energyEnd": 3
+    },
+    {
+        "date": "2025-10-09",
+        "duration": 134,
+        "activeKcal": 382,
+        "maxHRate": 160,
+        "minHRate": 71,
+        "energyMorn": 3,
+        "energyAfter": 2,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-10-10",
+        "duration": 86,
+        "activeKcal": 416,
+        "maxHRate": 175,
+        "minHRate": 81,
+        "energyMorn": 3,
+        "energyAfter": 2,
+        "energyEnd": 3
+    },
+    {
+        "date": "2025-10-13",
+        "duration": 109,
+        "activeKcal": 406,
+        "maxHRate": 172,
+        "minHRate": 89,
+        "energyMorn": 5,
+        "energyAfter": 5,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-14",
+        "duration": 105,
+        "activeKcal": 289,
+        "maxHRate": 148,
+        "minHRate": 75,
+        "energyMorn": 2,
+        "energyAfter": 2,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-15",
+        "duration": 106,
+        "activeKcal": 359,
+        "maxHRate": 162,
+        "minHRate": 82,
+        "energyMorn": 3,
+        "energyAfter": 2,
+        "energyEnd": 1
+    },
+    {
+        "date": "2025-10-16",
+        "duration": 114,
+        "activeKcal": 328,
+        "maxHRate": 149,
+        "minHRate": 75,
+        "energyMorn": 1,
+        "energyAfter": 2,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-17",
+        "duration": 101,
+        "activeKcal": 489,
+        "maxHRate": 178,
+        "minHRate": 97,
+        "energyMorn": 3,
+        "energyAfter": 4,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-10-20",
+        "duration": 111,
+        "activeKcal": 414,
+        "maxHRate": 175,
+        "minHRate": 80,
+        "energyMorn": 4,
+        "energyAfter": 4,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-10-23",
+        "duration": 120,
+        "activeKcal": 392,
+        "maxHRate": 166,
+        "minHRate": 78,
+        "energyMorn": 1,
+        "energyAfter": 2,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-24",
+        "duration": 111,
+        "activeKcal": 445,
+        "maxHRate": 162,
+        "minHRate": 63,
+        "energyMorn": 1,
+        "energyAfter": 1,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-27",
+        "duration": 107,
+        "activeKcal": 345,
+        "maxHRate": 169,
+        "minHRate": 64,
+        "energyMorn": 2,
+        "energyAfter": 2,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-28",
+        "duration": 95,
+        "activeKcal": 257,
+        "maxHRate": 144,
+        "minHRate": 72,
+        "energyMorn": 1,
+        "energyAfter": 1,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-10-29",
+        "duration": 94,
+        "activeKcal": 356,
+        "maxHRate": 168,
+        "minHRate": 73,
+        "energyMorn": 3,
+        "energyAfter": 3,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-10-30",
+        "duration": 118,
+        "activeKcal": 313,
+        "maxHRate": 146,
+        "minHRate": 73,
+        "energyMorn": 4,
+        "energyAfter": 5,
+        "energyEnd": 5
+    },
+    {
+        "date": "2025-10-31",
+        "duration": 82,
+        "activeKcal": 409,
+        "maxHRate": 167,
+        "minHRate": 91,
+        "energyMorn": 3,
+        "energyAfter": 4,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-11-03",
+        "duration": 110,
+        "activeKcal": 366,
+        "maxHRate": 164,
+        "minHRate": 60,
+        "energyMorn": 5,
+        "energyAfter": 5,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-11-04",
+        "duration": 110,
+        "activeKcal": 290,
+        "maxHRate": 158,
+        "minHRate": 63,
+        "energyMorn": 3,
+        "energyAfter": 4,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-11-05",
+        "duration": 101,
+        "activeKcal": 355,
+        "maxHRate": 171,
+        "minHRate": 88,
+        "energyMorn": 2,
+        "energyAfter": 3,
+        "energyEnd": 3
+    },
+    {
+        "date": "2025-11-06",
+        "duration": 110,
+        "activeKcal": 323,
+        "maxHRate": 147,
+        "minHRate": 73,
+        "energyMorn": 2,
+        "energyAfter": 2,
+        "energyEnd": 2
+    },
+    {
+        "date": "2025-11-07",
+        "duration": 90,
+        "activeKcal": 430,
+        "maxHRate": 173,
+        "minHRate": 84,
+        "energyMorn": 2,
+        "energyAfter": 3,
+        "energyEnd": 3
+    },
+    {
+        "date": "2025-11-17",
+        "duration": 107,
+        "activeKcal": 401,
+        "maxHRate": 182,
+        "minHRate": 74,
+        "energyMorn": 3,
+        "energyAfter": 4,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-11-18",
+        "duration": 119,
+        "activeKcal": 325,
+        "maxHRate": 151,
+        "minHRate": 77,
+        "energyMorn": 5,
+        "energyAfter": 4,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-11-19",
+        "duration": 111,
+        "activeKcal": 386,
+        "maxHRate": 175,
+        "minHRate": 68,
+        "energyMorn": 4,
+        "energyAfter": 3,
+        "energyEnd": 4
+    },
+    {
+        "date": "2025-11-20",
+        "duration": 120,
+        "activeKcal": 320,
+        "maxHRate": 149,
+        "minHRate": 73,
+        "energyMorn": 3,
+        "energyAfter": 4,
+        "energyEnd": 3
+    },
+    {
+        "date": "2025-11-21",
+        "duration": 60,
+        "activeKcal": 319,
+        "maxHRate": 175,
+        "minHRate": 74,
+        "energyMorn": 2,
+        "energyAfter": 2,
+        "energyEnd": 3
+    }
+]
