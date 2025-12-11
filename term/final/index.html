@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gabriela Sanchez - Final Term Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="d3.min.js"></script>
+</head>
+
+<body>
+    <h1>Relationship Between Workout Intensity and Change of Energy</h1>
+
+    <div id="canvas"></div>
+
+    <h2>Question</h2>
+    <p><strong>Does high intensity exercise deplete my daily energy or recharge it?</strong></p>
+    <h2>Hypothesis</h2>
+    <p>As Active Kilocalories increase on any given day, the energy change will more frequently show a negative result.
+    </p>
+    <p>In addition, longer workout Duration and high Maximum Heart Rate might amplify the overall effort, leading to a
+        loss of Energy.</p>
+
+
+    <h2>Data Collection</h2>
+    <p>
+        The data comes from a personal record collected during workout sessions throughout 7 weeks. Data was recorded
+        with a frequency of every workout session (approximately 5 times per
+        week). This volume of data was sufficient to identify dispersion patterns.
+    </p>
+    
+        <a href="..//data-collection.pdf" class="btn">View Data Collection PDF</a>
+    
+    <h2>Data Encoding</h2>
+    <ul>
+        <li><strong>X-Axis:</strong> Date/Day (Temporal/Sequential)</li>
+        <li><strong>Y-Axis:</strong> Active Kilocalories (Quantitative - Intensity)</li>
+        <li><strong>Color:</strong> Max Heart Rate in BPM (Low to High Intensity)</li>
+        <li><strong>Shape (Glyph):</strong> Energy Change (Morning workout vs Post workout)
+            <ul>
+                <li>Energy Gain (Triangle ▲).</li>
+                <li>Energy Loss (Triangle ▼).</li>
+                <li>No Change in Energy (Circle ●).</li>
+            </ul>
+        </li>
+        <li><strong>Size:</strong> Duration in min (Quantitative)</li>
+    </ul>
+
+    <h2>Justification (Analysis)</h2>
+    <p>This proposal is designed to check for sequential patterns and cumulative effects. By using Date on the X-Axis,
+        we can see if a string of high-intensity workouts (high Y-values, large size, hot color) immediately precedes a
+        day where the energy level shape changes after the workout. The use of Shape for the change of Energy Level
+        provides a clear categorical distinction of the primary result.</p>
+
+    <h2>Conclusion: Energy is Multifactorial</h2>
+    <p>After analyzing the visualization, the initial hypothesis that "higher intensity equals greater exhaustion" has
+        been refuted. The data shows no direct linear correlation: high intensity sessions (dark red dots and high on
+        the Y-axis) result in both energy gains and losses randomly.</p>
+
+    <p>However, an interesting pattern was observed: medium intensity workouts tend to cluster more frequently as
+        "Energy Gain". This suggests an alternative hypothesis: moderate exercise is the "sweet spot" for daily
+        vitality. The dispersion in extreme data indicates that daily energy is multifactorial and likely depends more
+        on external variables not measured in this study, such as sleep quality and nutrition, than on the exercise
+        itself.</p>
+
+            <h2>Report</h2>
+   <a href="..//data-collection.pdf" class="btn">View Report</a>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
